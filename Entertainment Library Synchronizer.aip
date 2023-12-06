@@ -162,8 +162,6 @@ OptionSignCommand=/K signtool sign /f MyCert.pfx "<SetupExe>"
 [Shortcuts]
 0=<ProgramGroup>*?ELS Navigator*?<InstallDir>\ELS-Navigator.exe*?Launch ELS Navigator*?*?<InstallDir>*?*?0*?Normal
 1=<Desktop>*?ELS Navigator*?<InstallDir>\ELS-Navigator.exe*?Launch ELS Navigator*?*?<InstallDir>*?*?0*?Normal
-2=<ProgramGroup>*?<AppName>*?<InstallDir>\ELS-Navigator.exe*?*?*?<InstallDir>*?*?0*?Normal
-3=<Desktop>*?<AppName>*?<InstallDir>\ELS-Navigator.exe*?*?*?<InstallDir>*?*?0*?Normal
 
 [Commands]
 0=<SystemDir>\cmd.exe*?/C mkdir "%USERPROFILE%\.els"*?Hide*?After Installation*?Yes*?Any*?No
